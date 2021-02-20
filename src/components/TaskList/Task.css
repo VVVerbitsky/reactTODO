@@ -1,0 +1,21 @@
+.Task{
+    display:flex;
+    border:1px solid blue;
+    height:20px;
+    /* justify-content: start; */
+    /* align-items: center; */
+}
+
+.Task div{
+    /* width:80%; */
+    /* border:1px solid red; */
+    line-height: 15px;
+    margin-left:5px;
+}
+.Task input{
+    /* border:1px solid red; */
+}
+
+.Task .done{
+    text-decoration: line-through;
+}

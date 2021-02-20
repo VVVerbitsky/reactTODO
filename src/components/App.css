@@ -1,0 +1,64 @@
+/* div{
+border:1px solid black;
+} */
+.App{
+    border:3px solid black;
+    border-radius: 7px;
+    width:400px;
+    /* height:400px; */
+    margin:auto;
+    margin-top:100px;
+}
+.addNewTask{
+    width:15%;
+    height:20px;
+    background-color: red;
+    /* border:1px solid black; */
+    /* background-color: rgb(143, 97, 27); */
+}
+.NewTask{
+    width:60%;
+    /* height:30px; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.NewTask input{
+    /* margin-top:5px; */
+    display: block;
+    height:20px;
+    width:80%;
+    border:none;
+}
+.NewTask input:focus{
+    outline: 0;
+    border:0;
+}
+
+.TaskControlPanel{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-color:blue;
+    margin:auto;
+    margin-top:20px;
+    width:80%;
+}
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
